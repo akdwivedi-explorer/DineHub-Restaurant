@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Karla', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+    gap: 60px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+
