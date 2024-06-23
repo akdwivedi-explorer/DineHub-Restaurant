@@ -43,8 +43,12 @@ main button{
     padding: 10px 10px;
 }
 
+.section .item p{
+    font-weight: 300;
+}
+
 .section .item img{
-    width: 300px;
+    width: 280px;
     height: 190px;
 }
 
@@ -62,4 +66,5 @@ main button{
 
 .section .item .title p{
     color: #EE9972;
+    font-weight: 600;
 }

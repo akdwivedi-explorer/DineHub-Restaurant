@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin: 40px 200px;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+aside img{
+    width: 400px;
+    height: 300px;
+
+}
+
+aside h2{
+    font-size: 65px;
+    color: #F4CE14;
+    font-weight: 900;
+}
+
+aside h4{
+    font-size: 30px;
+    color: #111;
+    font-weight: 600;
+}
+
+aside p{
+    margin-top: 20px;
+    font-weight: 300;
+    color: #111;
+    width: 350px;
+}
