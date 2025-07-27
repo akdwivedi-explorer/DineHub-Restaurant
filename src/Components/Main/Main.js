@@ -14,7 +14,7 @@ function Main() {
         </div>
         <div className={style.section}>
             <div className={style.item}>
-                <img src={salad} />
+                <img src={salad} alt='Salad'/>
                 <div className={style.title}>
                     <h4>Greek Salad</h4>
                     <p>$ 1.24</p>
@@ -23,7 +23,7 @@ function Main() {
                 <button>Order a delivery</button>
             </div>
             <div className={style.item}>
-            <img src={bruchetta} />
+            <img src={bruchetta} alt='Bruchetta'/>
                 <div className={style.title}>
                     <h4>Brochetta</h4>
                     <p>$ 5.24</p>
@@ -32,7 +32,7 @@ function Main() {
                 <button>Order a delivery</button>
             </div>
             <div className={style.item}>
-            <img src={dessert}/>
+            <img src={dessert} alt='Dessert'/>
                 <div className={style.title}>
                     <h4>Lemon Dessert</h4>
                     <p>$ 10.24</p>

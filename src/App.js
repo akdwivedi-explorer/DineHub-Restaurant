@@ -1,21 +1,20 @@
 import './App.css';
-import Header from './Components/Header/Header';
-import Nav from './Components/NavBar/Nav';
-import Main from './Components/Main/Main';
-import Article from './Components/Article/Article';
-import Section from './Components/Section/Section';
-import Footer from './Components/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from "./Components/Footer/Footer";
+import Nav from "./Components/NavBar/Nav";
+import Home from "./Components/Home/Home";
+import BookingPage from "./Components/BookingPage/BookingForm"
 
 function App() {
   return (
-    <>
+    <Router>
       <Nav />
-      <Header />
-      <Main />
-      <Article />
-      <Section />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/book' element={<BookingPage />} />
+      </Routes>
       <Footer />
-    </>
+    </Router>
   );
 }
 
