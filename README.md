@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# DineHub 🍽️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**DineHub** is a modern, elegant restaurant table booking web application that allows users to reserve tables effortlessly by selecting a date, time, number of guests, and occasion. The application features a beautiful and intuitive UI/UX experience to enhance user engagement and satisfaction.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🗓️ **Date-Based Booking**: Pick any date to see available slots.
+- ⏰ **Real-Time Availability**: Shows dynamic time slots via `fetchAPI(date)`.
+- 🧾 **Smart Booking Form**: Select number of guests, time, and occasion.
+- 🧪 **Unit Testing**: Ensures robustness with test cases for key components.
+- 🎨 **Beautiful UI/UX**: Fully responsive design with a clean, friendly interface.
+- ✅ **API Integration**: Seamless data handling via mock API functions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technologies Used
 
-### `npm test`
+- **React.js**
+- **JavaScript (ES6)**
+- **TailwindCSS / Flexbox / Grid**
+- **React Router Dom**
+- **Jest & React Testing Library** – for unit testing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 API Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `fetchAPI(date)`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Description**: Fetches available reservation time slots.
+- **Parameters**: `date` (`String` | `Date`) – Booking date
+- **Returns**: `Array<String>` – List of time slots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `submitAPI(formData)`
 
-### `npm run eject`
+- **Description**: Submits the reservation details.
+- **Parameters**: `formData` (`Object`) – Includes date, time, guests, occasion
+- **Returns**: `Boolean` – Success status
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📸 Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🏠 Hero Section & Navigation
+<img width="1458" height="839" alt="Screenshot 2025-07-28 at 9 14 03 PM" src="https://github.com/user-attachments/assets/2131f436-def4-49cb-8eee-df187d8151e0" />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🍽️ Weekly Specials & Menu & 🧑‍🍳 Testimonials & About Section
+<img width="1470" height="956" alt="Screenshot 2025-07-28 at 9 14 16 PM" src="https://github.com/user-attachments/assets/16cbbabc-baa4-4ae5-a8a4-7101fd1126d8" />
+<img width="1470" height="956" alt="Screenshot 2025-07-28 at 9 14 22 PM" src="https://github.com/user-attachments/assets/5d2c96dc-0b3c-4a75-8f3b-32b41a9f46d0" />
 
-## Learn More
+### 📝 Booking Form
+<img width="1470" height="956" alt="Screenshot 2025-07-28 at 9 14 59 PM" src="https://github.com/user-attachments/assets/7e1bd4ee-755b-48f9-949f-0260de46965d" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📂 Folder Structure
+```bash
+DineHub-Restaurant/
+├── public/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── api/
+│ ├── tests/
+│ └── App.js
+├── tests/
+├── README.md
+└── package.json
+```
+---
 
-### Code Splitting
+## 🧪 Running Tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run unit tests:
+```bash
+npm test
+```
 
-### Analyzing the Bundle Size
+## 🚀 Getting Started
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Clone the repository:
+```bash
+git clone https://github.com/akdwivedi-explorer/DineHub-Restaurant.git
+cd DineHub-Restaurant
+```
+Install dependencies:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+Open http://localhost:3000 in your browser to view the app.
 
-### Making a Progressive Web App
+## 🙌 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Advanced Configuration
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is licensed under the MIT License.
 
-### Deployment
+## 📬 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+For any inquiries or collaborations, feel free to reach out at [akumardwivedi77@gmail.com].
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+DineHub – Book your perfect table with ease! 🍷
